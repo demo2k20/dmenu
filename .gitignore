@@ -1,0 +1,6 @@
+*.orig
+*.rej
+dmenu
+dmenu.o
+drw.o
+util.o
