@@ -5,7 +5,7 @@ static int topbar = 1;                      /* -b  option; if 0, dmenu appears a
 static int fuzzy = 1;                       /* -F  option; if 0, dmenu doesn't use fuzzy matching     */
 
 /* -fn option overrides fonts[0]; default X11 font or font set */
-static char font[] = "Terminus:size=10";
+static char font[] = "Terminus:size=8";
 static const char *fonts[] = {
 	font,
 	"Terminus:size=10",
@@ -27,7 +27,7 @@ static char *colors[SchemeLast][2] = {
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
 static unsigned int lines      = 0;
 /* -h option; minimum height of a menu line */
-static unsigned int lineheight = 16;
+static unsigned int lineheight = 14;
 static unsigned int min_lineheight = 8;
 
 /*
