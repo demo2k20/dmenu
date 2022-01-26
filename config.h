@@ -9,7 +9,8 @@ static char font[] = "Terminus:size=10";
 static const char *fonts[] = {
 	font,
 	"Terminus:size=10",
-	"JoyPixels:size=10",
+	"Font Awesome 5 Free Solid:size=8",
+	"JoyPixels:size=8",
 };
 
 static char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
