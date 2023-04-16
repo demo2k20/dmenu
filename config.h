@@ -9,8 +9,8 @@ static char font[] = "Terminus:size=10";
 static const char *fonts[] = {
 	font,
 	"Terminus:size=10",
-	"Font Awesome 5 Free Solid:size=8",
-	"JoyPixels:size=8",
+	"Font Awesome 5 Free Solid:size=10",
+	"JoyPixels:size=10",
 };
 
 static char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
@@ -28,7 +28,7 @@ static char *colors[SchemeLast][2] = {
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
 static unsigned int lines      = 0;
 /* -h option; minimum height of a menu line */
-static unsigned int lineheight = 16;
+static unsigned int lineheight = 22;
 static unsigned int min_lineheight = 8;
 
 /*
