@@ -9,7 +9,7 @@ static char font[] = "Terminus:size=10";
 static const char *fonts[] = {
 	font,
 	"Terminus:size=10",
-	"Font Awesome 5 Free Solid:size=10",
+	"Font Awesome 6 Free Solid:size=10",
 	"JoyPixels:size=10",
 };
 
